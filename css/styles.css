@@ -1,0 +1,10 @@
+html {
+    overflow-y: auto; /* Show/Hide scrollbars automatically */
+}
+
+::selection {
+    background: #abffa0; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+    background: #abffa0; /* Gecko Browsers */
+}
