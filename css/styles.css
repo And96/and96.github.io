@@ -2,18 +2,20 @@ html {
     overflow-y: auto; /* Show/Hide scrollbars automatically */
 }
 
-::selection {
-    background: #1a8cff; /* WebKit/Blink Browsers */
-    color: #ffffff;
-}
-::-moz-selection {
-    background: #1a8cff; /* Gecko Browsers */
-    color: #ffffff;
+body {
+    font-family: 'Open Sans', sans-serif; /*Overrides default font*/
 }
 
-.highlight {
-    color:#fff;
-    background:#000;
-    box-shadow:5px 0 0 #000, -5px 0 0 #000;
-    padding: 5px 0;
+::selection {
+    background: #FFE0B2; /* WebKit/Blink Browsers */
+    color: #000000;
+}
+::-moz-selection {
+    background: #FFE0B2; /* Gecko Browsers */
+    color: #000000;
+}
+
+mark {
+    background:#FFE0B2;
+    color:#000000;
 }
