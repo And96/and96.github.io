@@ -7,15 +7,15 @@ body {
 }
 
 ::selection {
-    background: #FFE0B2; /* WebKit/Blink Browsers */
+    background: #82E0AA; /* WebKit/Blink Browsers */
     color: #000000;
 }
 ::-moz-selection {
-    background: #FFE0B2; /* Gecko Browsers */
+    background: #82E0AA; /* Gecko Browsers */
     color: #000000;
 }
 
 mark {
-    background:#FFE0B2;
+    background:#82E0AA;
     color:#000000;
 }
