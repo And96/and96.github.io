@@ -7,15 +7,21 @@ body {
 }
 
 ::selection {
-    background: #82E0AA; /* WebKit/Blink Browsers */
-    color: #000000;
+    background: #FFA500; /* WebKit/Blink Browsers */
+    color: #FFFFFF;
 }
 ::-moz-selection {
-    background: #82E0AA; /* Gecko Browsers */
-    color: #000000;
+    background: #FFA500; /* Gecko Browsers */
+    color: #FFFFFF;
 }
 
 mark {
-    background:#82E0AA;
-    color:#000000;
+    background:#FFA500;
+    color:#FFFFFF;
+}
+
+#home-section {
+  background-color: F8F8F8;
+  background-image: url("../images/computer-device-electronics-872958-min.jpg");
+  background-size: cover;
 }
