@@ -7,11 +7,11 @@ body {
 }
 
 ::selection {
-    background: #FFA500; /* WebKit/Blink Browsers */
+    background: #00FF00; /* WebKit/Blink Browsers */
     color: #FFFFFF;
 }
 ::-moz-selection {
-    background: #FFA500; /* Gecko Browsers */
+    background: #00FF00; /* Gecko Browsers */
     color: #FFFFFF;
 }
 
