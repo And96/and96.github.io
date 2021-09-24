@@ -21,7 +21,7 @@
 	</noscript>
 </head>
 
-<body>
+<body hidden>
 	<section id="home-section" class="hero is-light is-fullheight">
 		<div class="hero-body">
 			<div class="container has-text-centered">
@@ -49,6 +49,8 @@
 	googleFont.type = 'text/css';
 	var googleFontDefer = document.getElementsByTagName('link')[0];
 	googleFontDefer.parentNode.insertBefore(googleFont, googleFontDefer);
+	let body = document.getElementsByTagName('body');
+	body[0].removeAttribute("hidden");
 	</script>
 </body>
 
